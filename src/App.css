@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.image {
+  width: 72%;
+  height: auto;
+}
+
+.main { 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 20vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 18px;
+  }
+  
+  .value {
+    font-size: 16px;
+  }
+}
