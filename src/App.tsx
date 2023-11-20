@@ -48,7 +48,6 @@ function App() {
           <Countdown
             date={new Date(date)}
             renderer={(props) => {
-              console.log(props);
               return (
                 <div
                   style={{
