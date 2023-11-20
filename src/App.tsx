@@ -20,7 +20,7 @@ const fetchKey = async () => {
   } else {
     return {
       record: {
-        hash: 1722456000000,
+        hash: 1717358400000,
       },
     };
   }
