@@ -84,6 +84,13 @@ function App() {
           <p className="title">loading ...</p>
         )}
       </div>
+      <div className="footerWrap">
+        <div className="footer">
+          Made with{" "}
+          <img src="/heart.png" className="blob" width={24} height={24} /> by
+          noZZa
+        </div>
+      </div>
     </>
   );
 }
