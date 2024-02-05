@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./App.css";
 
@@ -43,6 +44,7 @@ function App() {
   return (
     <>
       <div className="main">
+        <Analytics />
         <img className="image" src="deadline.png" alt="deadline" />
         {date ? (
           <Countdown
